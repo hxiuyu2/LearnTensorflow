@@ -3,7 +3,8 @@ Learning Tensorflow with [Ucademy (Complete Guide to TensorFlow for Deep Learnin
 
 ## Classification:
 Test and compare LinearClassification and DNNClassification with census_data.csv.
-Linear Classification:
+  
+  Linear Classification:
 
 >              precision    recall  f1-score   support
 > 
