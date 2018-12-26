@@ -1,5 +1,5 @@
 # LearnTensorflow
-Learning Tensorflow
+Learning Tensorflow with [Ucademy (Complete Guide to TensorFlow for Deep Learning with Python)](https://www.udemy.com/complete-guide-to-tensorflow-for-deep-learning-with-python/)
 
 ## Classification:
 Test and compare LinearClassification and DNNClassification with census_data.csv.
