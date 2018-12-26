@@ -20,3 +20,8 @@ NN Classification:
 >           1       0.73      0.46      0.56      2333
 >     avg / total   0.82      0.83      0.81      9769
 
+## CNN:
+Two convolutional layers with filter size 4\*4 +
+One normal neuro network (fully connected) +
+Dropout to deal with overfitting
+The accuracy is like
