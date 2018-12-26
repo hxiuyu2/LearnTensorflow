@@ -22,6 +22,12 @@ NN Classification:
 
 ## CNN:
 Two convolutional layers with filter size 4\*4 +
-One normal neuro network (fully connected) +
-Dropout to deal with overfitting
-The accuracy is like
+  
+  One normal neuro network (fully connected) +
+  
+  Dropout to deal with overfitting
+  
+  The accyracy increases fast at first and slow down after 20 steps and finally flucutates around 55%
+![](/acc.png)
+  
+  There are 10 classes in the dataset, 55% is OK for 500 steps.
