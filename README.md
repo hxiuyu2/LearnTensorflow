@@ -11,6 +11,7 @@ Test and compare LinearClassification and DNNClassification with census_data.csv
 >           1       0.61      0.61      0.61      2333
 > 
 > avg / total       0.81      0.81      0.81      9769
+
 > NN Classification:
 >              precision    recall  f1-score   support
 > 
