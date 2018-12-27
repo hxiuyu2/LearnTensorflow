@@ -31,3 +31,9 @@ Two convolutional layers with filter size 4\*4 +
 ![](/acc.png)
   
   There are 10 classes in the dataset, 55% is OK for 500 steps.
+
+## RNN:
+Test RNN with LSTM structure and ReLu activation function to predict a 12 month data of milk production  
+  
+  The result is as following:
+  ![](/pred.png)
