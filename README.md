@@ -33,7 +33,13 @@ Two convolutional layers with filter size 4\*4 +
   There are 10 classes in the dataset, 55% is OK for 500 steps.
 
 ## RNN:
-Test RNN with LSTM structure and ReLu activation function to predict a 12 month data of milk production  
+Test RNN with LSTM structure and ReLu activation function to predict a 12 month data of milk production.
+  
+  RNN is very suitable for time series data. Long Short Term Memory structure can help deal with vanishing gradient.
   
   The result is as following:
   ![](/pred.png)
+  
+## Autoencoder
+Use autoencoder to perform PCA. PCA is a dimension reduction algorithm and encoder is the network with same size of input and output neuro. With the hidden layer of NN, we can perform PCA.
+
