@@ -69,3 +69,5 @@ Kaggle competition: [House Price Predition](https://www.kaggle.com/c/house-price
   3. Train test split
   4. Deal with overfitting
   5. Deal with categorical features
+  
+  kerenl-v1 score:0.14225 (rank 55%)
