@@ -2,6 +2,8 @@
 Learning Tensorflow with [Ucademy (Complete Guide to TensorFlow for Deep Learning with Python)](https://www.udemy.com/complete-guide-to-tensorflow-for-deep-learning-with-python/)
   
   Learning LightGBM with documentation
+  
+  Learning other regression and classification with ISR book
 
 ## Classification:
 Test and compare LinearClassification and DNNClassification with census_data.csv.
@@ -45,3 +47,25 @@ Test RNN with LSTM structure and ReLu activation function to predict a 12 month 
 ## Autoencoder
 Use autoencoder to perform PCA. PCA is a dimension reduction algorithm and encoder is the network with same size of input and output neuro. With the hidden layer of NN, we can perform PCA.
 
+## House Price Competition
+Kaggle competition: [House Price Predition](https://www.kaggle.com/c/house-prices-advanced-regression-techniques)
+  
+  Use Random Forest to select features
+  
+  Try LightGBM (PCA+GBDT), Lasso, ElasticNet, Kernel Ridge
+  
+  It turns out that LightGBM is quite good, especially with the help of PCA
+  
+  Feature engineering is so important to non-NN project.
+  
+  There are a few things to checkout:
+  1. Outliers
+  2. Missing values
+  3. Data leakage
+  
+  And a few more steps to go before start regression:
+  1. Evaluation rules
+  2. Cross validation method
+  3. Train test split
+  4. Deal with overfitting
+  5. Deal with categorical features
